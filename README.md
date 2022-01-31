@@ -10,6 +10,9 @@ The objective of this project is to get an experience in developing a network ap
 4.  MongoDB: MongoDB is a NoSQL database program. MongoDB uses JSON-like documents with optional schemas. 
 5.  Embedded JavaScript (EJS): EJS is a template engine that allows the user to generate HTML with plain JavaScript.
 
+## Deployment 
+After developing the web application locally, we had deployed it on Heroku [Visit it Now](https://whispering-eyrie-48026.herokuapp.com/)
+
 ## Authors 
 1. [Salma Sleem](https://github.com/salmasleem)
 2. [Malak El Kashab](https://github.com/malakel-khashab)
