@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <!-- <meta http-equiv="refresh" content="0.5"> -->
+
+    <style>
+        body {
+            background-image: url("background3.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            overflow-x: hidden;
+        }
+        #card1{
+            position: relative;
+            left: 50px;
+            color: white;
+            display: none;
+        }
+
+        #card2 {
+            position: relative;
+            left: 50px;
+            color: white;
+            display: none;
+        }
+
+        #card3 {
+            position: relative;
+            left: 50px;
+            color: white;
+            display: none;
+        }
+
+        #card4 {
+            position: relative;
+            left: 50px;
+            color: white;
+            display: none;
+        }
+
+        #card5 {
+            position: relative;
+            left: 50px;
+            color: white;
+            display: none;
+        }
+
+        #card6 {
+            position: relative;
+            left: 50px;
+            color: white;
+            display: none;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            -webkit-text-stroke: 1px blue;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2">
+        <a class="navbar-brand" style="color: rgb(191, 255, 161)">Cart</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <form method="POST" action='/search' class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" name="Search" type="search" placeholder="Search"
+                    aria-label="Search">
+
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- <div class="row3">
+        <div class="col-1" id="card1">
+            <img id="image" src="/iphone.jpg" width="80" height="100">
+            <div class="card1">
+                <h5 class="card1">iPhone 13 Pro Max</h5>
+                <button onclick="location.href = '/iphone';" id="iphone" class="btn btn-secondary ml-3"> View </button>
+            </div>
+        </div>
+    <hbr></hbr>
+        <div class="col-2" id="card2">
+            <img id="image" src="/galaxy.jpg" width="80" height="100">
+            <div class="card2">
+                <h5 class="card2">Galaxy S21 Ultra</h5>
+                <button onclick="location.href = '/galaxy';" id="galaxy" class="btn btn-secondary ml-3"> View </button>
+            </div>
+        </div>
+    <hbr></hbr>
+        <div class="col-3" id="card3">
+            <img id="image" src="/sun.jpg" width="80" height="100">
+            <div class="card3">
+                <h5 class="card3">The Sun and Her Flowers</h5>
+                <button onclick="location.href = '/sun';" id="sun" class="btn btn-secondary ml-3"> View </button>
+            </div>
+        </div>
+    <hbr></hbr>
+        <div class="col-1" id="card4">
+            <img id="image" src="/leaves.jpg" width="80" height="100">
+            <div class="card4">
+                <h5 class="card4">Leaves of Grass</h5>
+                <button onclick="location.href = '/leaves';" id="leaves" class="btn btn-secondary ml-3"> View </button>
+            </div>
+        </div>
+        <div class="col-2" id="card5">
+            <img id="image" src="/boxing.jpg" width="80" height="100">
+            <div class="card5">
+                <h5 class="card5">Boxing Bag</h5>
+                <button onclick="location.href = '/boxing';" id="boxing" class="btn btn-secondary ml-3"> View </button>
+            </div>s
+        </div>
+        <div class="col-3" id="card6">
+            <img id="image" src="/tennis.jpg" width="80" height="100">
+            <div class="card6">
+                <h5 class="card6">Tennis Racket</h5>
+                <button onclick="location.href = '/tennis';" id="tennis" class="btn btn-secondary ml-3"> View </button>
+            </div>
+        </div>
+    </div> -->
+    <div id="card1" >
+        <button onclick="location.href = '/iphone';" id="iphone" class="btn btn-secondary ml-3"> View iPhone 13 Pro</button>
+        <img id="image" src="/iphone.jpg" width="80" height="100">
+
+    </div>
+    <br \>
+    <br \>
+    <div id="card2">
+        <button onclick="location.href = '/galaxy';" id="galaxy" class="btn btn-secondary ml-3"> View Samsung Galaxy </button>
+        <img id="image" src="/galaxy.jpg" width="80" height="100">
+
+    </div>
+    <br \>
+    <br \>
+    <div id="card3">
+        <button onclick="location.href = '/leaves';" id="leaves" class="btn btn-secondary ml-3"> View Leaves Book </button>
+        <img id="image" src="/leaves.jpg" width="80" height="100">
+
+    </div>
+    <br \>
+    <br \>
+    <div id="card4">
+        <button onclick="location.href = '/sun';" id="sun" class="btn btn-secondary ml-3"> View Sun Book </button>
+        <img id="image" src="/sun.jpg" width="80" height="100">
+
+    </div>
+    <br \>
+    <br \>
+
+    <div id="card5">
+        <button onclick="location.href = '/boxing';" id="boxing" class="btn btn-secondary ml-3"> View Boxing Bag  </button>
+        <img id="image" src="/boxing.jpg" width="80" height="100">
+
+    </div>
+    <br \>
+    <br \>
+    <div id="card6">
+        <button onclick="location.href = '/tennis';" id="tennis" class="btn btn-secondary ml-3"> View tennis racket  </button>
+        <img id="image" src="/tennis.jpg" width="80" height="100">
+
+    </div>
+    <br \>
+    <br \>
+
+</body>
+<script>
+     async function Display(Card){
+   document.getElementById(Card).style.display="initial"
+}
+    var card1 = "<%= ip1 %>"
+    Display(card1)
+    var card2 = "<%= ip2 %>"
+    Display(card2)
+    var card3 = "<%= ip3 %>"
+    Display(card3)
+    var card4 = "<%= ip4 %>"
+    Display(card4)
+    var card5 = "<%= ip5 %>"
+    Display(card5)
+    var card6 = "<%= ip6 %>"
+    Display(card6)
+
+</script>
+
+</html>
